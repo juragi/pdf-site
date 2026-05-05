@@ -13,10 +13,15 @@ export default function Home() {
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
           
-          <a href="/tools/pdf-to-jpg" className="p-6 bg-white rounded-xl shadow hover:shadow-lg transition">
+          {/* <a href="/tools/pdf-to-jpg" className="p-6 bg-white rounded-xl shadow hover:shadow-lg transition">
             <h2 className="text-2xl font-semibold mb-2">PDF → JPG</h2>
             <p className="text-gray-500">PDF 파일을 이미지로 변환</p>
-          </a>
+          </a> */}
+
+          <div className="p-6 bg-gray-200 rounded-xl">
+            <h2 className="text-2xl font-semibold mb-2">PDF → JPG</h2>
+            <p className="text-gray-500">곧 추가 예정</p>
+          </div>
 
           <div className="p-6 bg-gray-200 rounded-xl">
             <h2 className="text-2xl font-semibold mb-2">PDF 합치기</h2>
