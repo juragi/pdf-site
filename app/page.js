@@ -3,7 +3,7 @@ export default function Home() {
     <main className="min-h-screen bg-gray-50 p-10">
       <div className="max-w-4xl mx-auto">
         
-        <h1 className="text-4xl font-bold mb-3">
+        <h1 className="text-4xl font-bold text-blue-600">
           Juragi Tools 🛠️
         </h1>
 
